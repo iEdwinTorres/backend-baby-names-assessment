@@ -82,8 +82,8 @@ def main(args):
         sys.exit(1)
 
     file_list = ns.files
-
     create_summary = ns.summaryfile
+
     for filename in file_list:
         names = extract_names(filename)
         text = '\n'.join(names)
